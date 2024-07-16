@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+</head>
+<body>
+    <h2 style="text-align : center;font-size: 28px; background-color: greenyellow;">Task : Variable Decleration & DataTypes</h2>
+    
+    <p style="font-weight: 700; font-size: 22px; text-align: left;"> Task 1 :Declare a variable using var,assign it a number and log the value to the console</p>
+    
+    <p style="font-weight: 700;font-size: 22px; text-align: left;"> Task 2 :Declare a variable using let,assign it a string and log the value to the console</p>
+        <p style="font-weight: 700;font-size: 22px; text-align: left;">Task 3: Declare a variable using const ,assign it boolean and log the value to the console</p>
+    
+    <p style="font-weight: 700;font-size: 22px; text-align: left;"> Task 4: create variable  of different datatypes(number,string,boolean,object.array) and log each variables types using type of operator</p>
+    
+
+
+    <h3 style="text-align: center;font-size: 28px;  background-color: greenyellow;">Task: Reassigning Variables </h3>
+    
+    <p style="font-weight: 700;font-size: 22px; text-align: left;"> Task 5:Declare a variable using let assign it an initail valuie, reassign a new value and log both values to the console</p>
+    
+    <p style="font-weight: 700; font-size: 22px;text-align: left;"> Task 6 :Try reassigning a variable declared with const and observe the error</p>
+    
+    <br>
+    Reason: let variables are block-scoped, meaning they are limited to the block ({ }) in which they are defined. They allow flexibility by allowing you to change the value of the variable within the same block scope without constraints once it's declared.
+    <br>
+    Reason: Unlike let, var is function-scoped, meaning it is visible and accessible tbroughout the entire function in which it is defined. This can sometimes lead to unexpected behavior due to hoisting, where variables are moved to the top of their function scope during compilation.
+     <br>
+     Reason: const is block-scoped like let, but it prevents reassignment of the variable itself after initialization. This is useful when you want to ensure that a variable doesn't change its reference or value accidentally, promoting immutability for certain types of data structures.
+     <br>Why const is Considered Immutable (Reference-wise):
+     Reference Stability: The immutability associated with const primarily refers to the stability of the reference itself. Once a const variable is assigned a value, the variable cannot be reassigned to refer to a different value. This helps prevent accidental reassignments and promotes code clarity and predictability.
+     
+     Intent and Readability: Using const makes your code more readable by signaling to other developers that the variable should not be reassigned. It also helps prevent unintended side effects that can occur when variables are redefined unexpectedly
+
+<script src="Va"></script>
+
+
+</body>
