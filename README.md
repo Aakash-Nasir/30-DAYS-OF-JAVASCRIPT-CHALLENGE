@@ -10,3 +10,7 @@ Day 7: Objects
 Day 8. ES6 + Features
 Day 9. Dom Manipulation
 Day 10. Event Handling
+Day 11. Promises and async await
+Day 12. Error Handling
+Day 13. Modules
+Day 14. Classes
