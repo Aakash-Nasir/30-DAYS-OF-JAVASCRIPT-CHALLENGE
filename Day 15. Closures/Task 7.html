@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1 style="background-color: greenyellow;">Activity 5: Event Listeners</h1>
+    <h2>Task 7: Write a function that attaches a click event listener to a button. Use a closure to keep track of the number of clicks and log the count each time the button is clicked.
+
+    </h2>
+    <button id="myButton">Click me</button>
+
+    <script>
+      function attachClickListener() {
+        let clickCount = 0;
+
+        document
+          .getElementById("myButton")
+          .addEventListener("click", function () {
+            clickCount++;
+            console.log(`Button clicked ${clickCount} times`); // Button clicked 1 times
+          });
+      }
+
+      attachClickListener();
+    </script>
+  </body>
+</html>
