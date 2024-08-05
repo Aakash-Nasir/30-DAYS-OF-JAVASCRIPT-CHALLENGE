@@ -14,3 +14,8 @@ Day 11. Promises and async await
 Day 12. Error Handling
 Day 13. Modules
 Day 14. Classes
+Day 15. Closures
+Day 16. Recursion
+Day 17. Data Structures
+Day 18. Algorithms
+Day 19. Regular Expression
